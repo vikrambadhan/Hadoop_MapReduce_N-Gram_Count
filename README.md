@@ -8,7 +8,7 @@ The submission was programmed in python and tested on NYU Dataproc Hadoop Cluste
 To run the code:
     mapred streaming -input hw1.txt -output <outputfile> -mapper "python mapper.py" -reducer "python reducer.py" -file mapper.py -file reducer.py
 
-    This will run and output will be stored as <outputfile>
+    --> This will run and output will be stored as <outputfile>
 
 
 use this <outputfile> file and run:
@@ -20,4 +20,3 @@ The <finalfile> will be stored as a .txt file and we can parse it to check the o
 We parse using the command, 
 
 hdfs dfs -cat <finalfile>.txt/par*
-
